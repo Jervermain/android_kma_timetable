@@ -1,0 +1,30 @@
+﻿
+SQLite
+
+Sinh Viên
++ Mã SV(Key Primary)
++ Tên
++ Lớp SV
+
+Phân loại lớp
++ Id lớp(Key Primary)
++ Tên lớp
+
+Phân loại môn
++ Id môn(Key Primary)
++ Tên môn
+
+Thời gian
++ Id Thời gian(Key Primary)
++ Bắt đầu
++ Kết thúc
++ Tiết
++ Id môn(Khóa ngoại)
++ Id lớp(Khóa ngoại)
+
+Đăng ký
++ Id đăng ký(Key Primary)
++ Mã SV(Khóa ngoại)
++ Id thời gian(Khóa ngoại)
+
+
